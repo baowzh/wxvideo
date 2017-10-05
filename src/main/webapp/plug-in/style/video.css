@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+.p-thumb {
+	position: relative;
+	overflow: hidden;
+	zoom: 1;
+	line-height: 18px;
+	margin:20px auto;
+}
+
+.p-thumb a {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 50;
+	left: 0;
+	top: 0;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.p-thumb img {
+/* 	width: 80%; */
+	height: 60%;
+	margin:20px auto;
+}
